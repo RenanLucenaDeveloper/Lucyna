@@ -1,0 +1,66 @@
+@use './variables';
+@use './mixins';
+
+#logo {
+  margin: 40px auto;
+  height: 48px;
+  width: 48px;
+  display: block;
+}
+
+#landing-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 240px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  color: variables.$white;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  font-weight: 500;
+}
+
+#buttons-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.round-button {
+  @include mixins.round-button(variables.$dark-orange);
+  background-image: linear-gradient(to right, variables.$orange , variables.$orange-2);
+}
+
+#see-all-button {
+  @include mixins.round-button(variables.$gray, #19191B);
+  background-image: none;
+  position: relative;
+  padding-left: 55px;
+  padding-right: 22px;
+
+  img {
+    background-color: variables.$gray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 12px;
+    border-radius: 50%;
+  }
+}
+
+.card {
+  @include mixins.card-mobile;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  font-weight: 400;
+
+  p {
+    font-size: 12px;
+  }
+}

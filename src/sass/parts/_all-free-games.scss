@@ -1,0 +1,30 @@
+@use './variables';
+
+#all-free-games-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  max-width: 240px;
+  flex-wrap: wrap;
+  margin: 0 auto 40px auto;
+
+  a {
+    color: variables.$white;
+    text-decoration: none;
+    font-size: 12px;
+
+    img {
+      display: block;
+      min-width: 100px;
+      max-width: 100px;
+      height: 130px;
+      object-fit: cover;
+      object-position: 100% 0;
+      border-radius: 12px;
+    }
+
+    h3 {
+      padding: 10px 0 5px 0;
+    }
+  }
+}

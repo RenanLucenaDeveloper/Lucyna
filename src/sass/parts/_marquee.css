@@ -1,0 +1,21 @@
+/*               */
+
+.marquee {
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 auto 40px auto;
+}
+
+.marquee div {
+  padding-left: 100%;
+  display: inline-block;
+  animation: animate 10s linear infinite;
+  color: #323138;
+}
+
+@keyframes animate {
+  100% {
+    transform: translate(-100%, 0);
+  }
+}

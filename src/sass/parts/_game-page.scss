@@ -1,0 +1,124 @@
+@use './variables';
+@use './mixins';
+
+#game-title {
+  @include mixins.h2-mobile;
+  padding: 25px 0 20px 0;
+  margin: 0 auto;
+  width: 240px;
+}
+
+#game-image {
+  display: block;
+  min-width: 240px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 100% 20%;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+#price {
+  text-align: center;
+  margin: 20px auto 10px auto;
+  color: variables.$white;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#offer-data {
+  text-align: center;
+  margin: 0 auto 20px auto;
+  color: #909090;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#buttons-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 240px;
+  margin: 0 auto
+}
+
+#cart-button {
+  @include mixins.round-button;
+  padding: 12px 24px 12px 24px;
+
+  img {
+    height: 19px;
+    width: 19px;
+  }
+}
+
+#buy-now-button {
+  @include mixins.round-button(variables.$dark-orange);
+  background-image: linear-gradient(to right, variables.$orange , variables.$orange-2);
+  padding: 12px 38px 12px 15px;
+
+  &:disabled {
+    background-image: none;
+    background-color: variables.$gray;
+    border-color: variables.$dark-gray;
+    color: #909090;
+    padding: 12px 15px;
+  }
+}
+
+/* Cards & Description */
+
+#genres {
+  @include mixins.card-mobile;
+
+  margin: 20px auto;
+
+  h3 {
+    font-size: 12px;
+    padding-bottom: 5px;
+    color: variables.$light-gray;
+  }
+
+  p {
+    color: #909090;
+    font-weight: 400;
+    font-size: 12px;
+  }
+}
+
+#thecnical-container {
+  @include mixins.card-mobile;
+
+  margin: 20px auto;
+  padding: 20px 16px;
+
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  p {
+    color: #909090;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .response {
+    font-size: 12px;
+    color: variables.$light-gray;
+  }
+}
+
+#short-description {
+  max-width: 240px;
+  color: #909090;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+
+  margin: 0 auto 40px auto;
+}

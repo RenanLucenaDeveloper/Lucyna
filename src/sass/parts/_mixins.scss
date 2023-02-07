@@ -1,0 +1,37 @@
+@mixin round-button($border-color:#323138, $background-color: #19191B) {
+  padding: 12px 24px 12px 12px;
+  border: 2px solid;
+  border-radius: 100px;
+  border-color: $border-color;
+  max-width: 240px;
+  display: flex;
+  align-items: center;
+  background-color: $background-color;
+  gap: 17px;
+  font-size: 15px;
+  max-width: 175px;
+  margin: 0 auto;
+
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+@mixin card-mobile($border-color:#19191B, $background-color1: #19191B, $background-color2: #1D1D1F) {
+  padding: 12px;
+  border: 2px solid;
+  border-radius: 12px;
+  border-color: $border-color;
+  max-width: 240px;
+  background-image: linear-gradient(to right, $background-color1 , $background-color2);
+  max-width: 240px;
+  margin: 0 auto;
+
+  color: #F5F5F5;
+}
+
+@mixin h2-mobile() {
+  font-size: 14px;
+  padding-bottom: 16px;
+  color: #F5F5F5;
+  font-weight: 500;
+}
