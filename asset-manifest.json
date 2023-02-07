@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Lucyna/static/css/main.fb9ce8fb.css",
-    "main.js": "/Lucyna/static/js/main.23947870.js",
+    "main.css": "/Lucyna/static/css/main.ae937cdd.css",
+    "main.js": "/Lucyna/static/js/main.b1a2143e.js",
     "static/media/empty-library-img.jpg": "/Lucyna/static/media/empty-library-img.d3e714702ab46ab457c8.jpg",
     "static/media/rocket-icon.svg": "/Lucyna/static/media/rocket-icon.35ac796710505a437a9a3a01318e42a8.svg",
     "static/media/rocket.svg": "/Lucyna/static/media/rocket.897b047fae780134583e3d4fd2e2a1ba.svg",
@@ -18,11 +18,11 @@
     "static/media/linkedin.svg": "/Lucyna/static/media/linkedin.a362ece92ed5e010fdbc3f23467ac6ec.svg",
     "index.html": "/Lucyna/index.html",
     "static/media/star.svg": "/Lucyna/static/media/star.530fad7c814670ba9f2da7b3854746a2.svg",
-    "main.fb9ce8fb.css.map": "/Lucyna/static/css/main.fb9ce8fb.css.map",
-    "main.23947870.js.map": "/Lucyna/static/js/main.23947870.js.map"
+    "main.ae937cdd.css.map": "/Lucyna/static/css/main.ae937cdd.css.map",
+    "main.b1a2143e.js.map": "/Lucyna/static/js/main.b1a2143e.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb9ce8fb.css",
-    "static/js/main.23947870.js"
+    "static/css/main.ae937cdd.css",
+    "static/js/main.b1a2143e.js"
   ]
 }
