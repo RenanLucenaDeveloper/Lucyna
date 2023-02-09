@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Lucyna/static/css/main.cd87424b.css",
-    "main.js": "/Lucyna/static/js/main.c66fc3c7.js",
+    "main.css": "/Lucyna/static/css/main.533c50f0.css",
+    "main.js": "/Lucyna/static/js/main.d076fc85.js",
     "static/media/phoenix.png": "/Lucyna/static/media/phoenix.9605389b2c54d757dfd9.png",
-    "static/media/empty-library-img.jpg": "/Lucyna/static/media/empty-library-img.d3e714702ab46ab457c8.jpg",
+    "static/media/empty-library-img.jpg": "/Lucyna/static/media/empty-library-img.7bf26fb3c105ada91305.jpg",
     "static/media/rocket-icon.svg": "/Lucyna/static/media/rocket-icon.35ac796710505a437a9a3a01318e42a8.svg",
     "static/media/rocket.svg": "/Lucyna/static/media/rocket.897b047fae780134583e3d4fd2e2a1ba.svg",
     "static/media/account-circle.svg": "/Lucyna/static/media/account-circle.a553690c1355eda39a779b541a06e626.svg",
@@ -19,11 +19,11 @@
     "static/media/linkedin.svg": "/Lucyna/static/media/linkedin.a362ece92ed5e010fdbc3f23467ac6ec.svg",
     "index.html": "/Lucyna/index.html",
     "static/media/star.svg": "/Lucyna/static/media/star.530fad7c814670ba9f2da7b3854746a2.svg",
-    "main.cd87424b.css.map": "/Lucyna/static/css/main.cd87424b.css.map",
-    "main.c66fc3c7.js.map": "/Lucyna/static/js/main.c66fc3c7.js.map"
+    "main.533c50f0.css.map": "/Lucyna/static/css/main.533c50f0.css.map",
+    "main.d076fc85.js.map": "/Lucyna/static/js/main.d076fc85.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd87424b.css",
-    "static/js/main.c66fc3c7.js"
+    "static/css/main.533c50f0.css",
+    "static/js/main.d076fc85.js"
   ]
 }
