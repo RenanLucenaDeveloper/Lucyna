@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Lucyna/static/css/main.febe130d.css",
+    "main.css": "/Lucyna/static/css/main.e2dc0ab9.css",
     "main.js": "/Lucyna/static/js/main.49d8153d.js",
     "static/media/phoenix.png": "/Lucyna/static/media/phoenix.9605389b2c54d757dfd9.png",
     "static/media/empty-library-img.jpg": "/Lucyna/static/media/empty-library-img.7bf26fb3c105ada91305.jpg",
@@ -19,11 +19,11 @@
     "static/media/linkedin.svg": "/Lucyna/static/media/linkedin.a362ece92ed5e010fdbc3f23467ac6ec.svg",
     "index.html": "/Lucyna/index.html",
     "static/media/star.svg": "/Lucyna/static/media/star.530fad7c814670ba9f2da7b3854746a2.svg",
-    "main.febe130d.css.map": "/Lucyna/static/css/main.febe130d.css.map",
+    "main.e2dc0ab9.css.map": "/Lucyna/static/css/main.e2dc0ab9.css.map",
     "main.49d8153d.js.map": "/Lucyna/static/js/main.49d8153d.js.map"
   },
   "entrypoints": [
-    "static/css/main.febe130d.css",
+    "static/css/main.e2dc0ab9.css",
     "static/js/main.49d8153d.js"
   ]
 }
