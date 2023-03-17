@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/Lucyna/static/css/main.e2dc0ab9.css",
-    "main.js": "/Lucyna/static/js/main.49d8153d.js",
+    "main.css": "/Lucyna/static/css/main.5fb12007.css",
+    "main.js": "/Lucyna/static/js/main.515719ac.js",
     "static/media/phoenix.png": "/Lucyna/static/media/phoenix.9605389b2c54d757dfd9.png",
     "static/media/empty-library-img.jpg": "/Lucyna/static/media/empty-library-img.7bf26fb3c105ada91305.jpg",
     "static/media/rocket-icon.svg": "/Lucyna/static/media/rocket-icon.35ac796710505a437a9a3a01318e42a8.svg",
     "static/media/rocket.svg": "/Lucyna/static/media/rocket.897b047fae780134583e3d4fd2e2a1ba.svg",
     "static/media/account-circle.svg": "/Lucyna/static/media/account-circle.a553690c1355eda39a779b541a06e626.svg",
+    "static/media/unlogged.svg": "/Lucyna/static/media/unlogged.9472158420c868d89e942943db0f1f0e.svg",
     "static/media/whatsapp.svg": "/Lucyna/static/media/whatsapp.7522ab519737c2877c328e2297d0743e.svg",
     "static/media/cookie.svg": "/Lucyna/static/media/cookie.6d750f4fd9bab1302b8cc4d40f6f8c58.svg",
     "static/media/logo.svg": "/Lucyna/static/media/logo.f8ff688f03f9c9217d24292f3b506c0b.svg",
@@ -19,11 +20,11 @@
     "static/media/linkedin.svg": "/Lucyna/static/media/linkedin.a362ece92ed5e010fdbc3f23467ac6ec.svg",
     "index.html": "/Lucyna/index.html",
     "static/media/star.svg": "/Lucyna/static/media/star.530fad7c814670ba9f2da7b3854746a2.svg",
-    "main.e2dc0ab9.css.map": "/Lucyna/static/css/main.e2dc0ab9.css.map",
-    "main.49d8153d.js.map": "/Lucyna/static/js/main.49d8153d.js.map"
+    "main.5fb12007.css.map": "/Lucyna/static/css/main.5fb12007.css.map",
+    "main.515719ac.js.map": "/Lucyna/static/js/main.515719ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2dc0ab9.css",
-    "static/js/main.49d8153d.js"
+    "static/css/main.5fb12007.css",
+    "static/js/main.515719ac.js"
   ]
 }
